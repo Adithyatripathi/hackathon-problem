@@ -1,0 +1,12 @@
+import java.util.*;
+class TestClass {
+    public static void main(String args[] )  {
+        int fact=1,i;
+        int n=3;
+        for (i=1;i<=n;i++){
+        fact= fact*i;
+        
+       }
+       System.out.println(fact);
+       }
+       }

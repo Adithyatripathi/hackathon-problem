@@ -35,7 +35,7 @@ public class Calculator1 {
                 if (num2 != 0) {
                     result = num1 / num2;
                 } else {
-                    System.out.println("Error: Division by zero");
+                    System.out.println("Error: Division by zero is not possible");
                     return; // Exit the program
                 }
                 break;

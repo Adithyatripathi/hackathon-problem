@@ -44,10 +44,10 @@ public class ArrayLastDigitPrint {
         // Iterate through the array
         for (int number : arr) {
             // Get the last digit of each number
-            int lastDigit = number % 10;
+            int LD = number % 10;
 
             // Print the last digit
-            System.out.println(lastDigit);
+            System.out.println(LD);        
         }
     }
 }

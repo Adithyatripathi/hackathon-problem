@@ -41,7 +41,7 @@ public class Calculator1 {
                 break;
             default:
                 System.out.println("Invalid choice");
-                return; // Exit the program
+                return; // Exit 
         }
 
         System.out.println("Result: " + result);
